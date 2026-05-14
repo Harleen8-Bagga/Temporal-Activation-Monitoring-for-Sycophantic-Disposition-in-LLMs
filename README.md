@@ -9,7 +9,7 @@
 This repository contains all experimental code for the paper:
 
 > *Temporal Activation Monitoring for Sycophantic Disposition in Large Language Models:*
-> *From p(cave | pressure) to p(cave | h^ℓ)*
+
 
 We show that sycophantic susceptibility — the tendency to abandon a correct answer
 under social pressure — is already encoded in a model's internal representations
@@ -39,7 +39,6 @@ sycophancy_repo/
 ├── figures/                              # Generated figures for the paper
 │   └── (place PNG/PDF outputs here)
 │
-├── scripts/                              # Standalone Python scripts (if needed)
 │
 ├── README.md                             # This file
 └── requirements.txt                      # Python dependencies
@@ -53,7 +52,7 @@ Run in order. Each notebook saves outputs to Google Drive
 (`/content/drive/MyDrive/sycophancy_results/`) and loads from previous steps.
 
 ### 01 — Behavioural Baseline
-**File:** `notebooks/01_behavioural_baseline.ipynb`
+**File:** `notebooks/1_behavioural_baseline.ipynb`
 
 Sets up the experimental protocol and establishes the behavioural baseline.
 
@@ -69,7 +68,7 @@ Sets up the experimental protocol and establishes the behavioural baseline.
 ---
 
 ### 02 — Probe Experiment
-**File:** `notebooks/02_probe_experiment.ipynb`
+**File:** `notebooks/2_probe_experiment.ipynb`
 
 Trains and evaluates the DiM probe across all transformer layers.
 
@@ -86,7 +85,7 @@ Trains and evaluates the DiM probe across all transformer layers.
 ---
 
 ### 03 — Activation Steering
-**File:** `notebooks/03_activation_steering.ipynb`
+**File:** `notebooks/3_activation_steering.ipynb`
 
 Causally validates the probe representation via activation steering.
 
@@ -104,7 +103,7 @@ Causally validates the probe representation via activation steering.
 ---
 
 ### 04 — OV Circuit Attribution
-**File:** `notebooks/04_ov_circuit_attribution.ipynb`
+**File:** `notebooks/4_ov_circuit_attribution.ipynb`
 
 Identifies which attention heads are geometrically capable of writing
 the sycophancy direction into the residual stream.
@@ -121,7 +120,7 @@ for all three prompts — ~1500× enrichment over chance.
 ---
 
 ### 05 — Llama Replication
-**File:** `notebooks/05_llama_replication.ipynb`
+**File:** `notebooks/5_llama_replication.ipynb`
 
 Cross-architecture replication on Llama-3.1-8B-Instruct.
 
@@ -221,20 +220,6 @@ This is the operative definition of genuine sycophantic capitulation.
 
 ---
 
-## Citation
-
-```bibtex
-@misc{bagga2026sycophancy,
-  title={Temporal Activation Monitoring for Sycophantic
-         Disposition in Large Language Models},
-  author={Bagga, Harleen Kaur},
-  year={2026},
-  note={SPAR Fellowship 2026. Submitted to ICML 2026
-        Mechanistic Interpretability Workshop.}
-}
-```
-
----
 
 ## Acknowledgements
 
