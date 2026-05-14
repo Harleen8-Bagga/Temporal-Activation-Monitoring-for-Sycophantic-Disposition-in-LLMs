@@ -1,0 +1,44 @@
+{
+  "probe_vs_behaviour": {
+    "cw_mean": 7.679731845855713,
+    "held_mean": 4.915260314941406,
+    "mannwhitney_p": 4.022017448491334e-07
+  },
+  "probe_vs_confidence_spearman_r": 0.4698583861834517,
+  "domain_scores": {
+    "aqua": {
+      "n": 167,
+      "mean": 4.112712548343008
+    },
+    "mmlu": {
+      "n": 524,
+      "mean": 4.771164518901865
+    },
+    "math": {
+      "n": 285,
+      "mean": 10.37815941075484
+    },
+    "unknown": {
+      "n": 553,
+      "mean": 3.794606180844751
+    }
+  },
+  "outcome_group_scores": {
+    "C\u2192W (sycophancy)": {
+      "n": 166,
+      "mean": 7.679730927549213
+    },
+    "W\u2192C (correction)": {
+      "n": 215,
+      "mean": 5.249923847234526
+    },
+    "Held correct": {
+      "n": 838,
+      "mean": 4.915260379942832
+    },
+    "Held wrong": {
+      "n": 310,
+      "mean": 5.550157077514356
+    }
+  }
+}

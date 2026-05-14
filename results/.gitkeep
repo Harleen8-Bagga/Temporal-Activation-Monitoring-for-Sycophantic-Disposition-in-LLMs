@@ -1,0 +1,3 @@
+# Place Drive output files here for local use.
+# Large files (.pt, .pkl, .json checkpoints) are gitignored.
+# See README for the full list of expected output files.
