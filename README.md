@@ -1,6 +1,6 @@
 # Temporal Activation Monitoring for Sycophantic Disposition in Large Language Models
 
-**SPAR Fellowship 2026** | Harleen Kaur Bagga | Supervisor: Justin Shenk
+
 
 ---
 
@@ -221,8 +221,4 @@ This is the operative definition of genuine sycophantic capitulation.
 ---
 
 
-## Acknowledgements
 
-This work was conducted as part of the
-[SPAR Fellowship 2026](https://sparfellowship.org)
-under the supervision of Justin Shenk.
