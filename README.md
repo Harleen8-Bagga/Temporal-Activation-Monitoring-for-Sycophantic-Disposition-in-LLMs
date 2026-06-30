@@ -89,7 +89,7 @@ Trains and evaluates the DiM probe across all transformer layers.
 
 Causally validates the probe representation via activation steering.
 
-- Injects DiM direction into layer 21 residual stream at Turn 2
+- Injects DiM direction into layer 20 residual stream at Turn 2
 - Tests normalised alpha fractions: {-0.5, -0.3, 0.0, +0.3, +0.5}
 - Two item groups: Group A (proved vulnerable), Group B (proved resistant)
 - Group C subanalysis: steering restricted to high-confidence items (conf ≥ 0.80)
@@ -98,7 +98,7 @@ Causally validates the probe representation via activation steering.
 - **Key output:** `steering_*.json` checkpoint files, Spearman/Fisher statistics
 
 **Hypothesis tested:** H4 — Is the representation causally upstream of capitulation?
-**Result:** Supported. Spearman r = 0.894, p = 0.040 at layer 21; random control flat.
+**Result:** Supported. Spearman r = 0.894, p = 0.040 at layer 20; random control flat.
 
 ---
 
